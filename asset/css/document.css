@@ -327,13 +327,10 @@ border: 1px solid #666;
 line-height: 1.75;
 font-size: 16px;
 color: #333;
+word-break: break-all;
 }
 .article-section th {
-white-space: nowrap;
 vertical-align: middle;
-}
-.article-section td {
-word-break: break-all;
 }
 .article-section thead th {
 background-color: #57A99A;
@@ -717,6 +714,10 @@ margin: 0 0 16px 2em;
 .article-section li {
 font-size: 12px;
 }
+.article-section th,
+.article-section td {
+font-size: 12px;
+}
 .article-section .highlighter-rouge {
 margin: 0 -16px 16px; padding: 8px 16px;
 font-size: 12px;
@@ -744,6 +745,10 @@ font-size: 20px;
 }
 .copyright {
 font-size: 10px;
+}
+.article-section div.highlighter-rouge {
+margin: 0 -16px 24px;
+font-size: 12px;
 }
 
 }
